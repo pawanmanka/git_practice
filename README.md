@@ -26,3 +26,4 @@ if use -D = force delete
 - For remove local changes 
     git restore .
 
+![alt text](image.png)
