@@ -5,6 +5,9 @@ The staging area is a file, generally contained in your Git directory, that stor
 - For remove local changes 
     git restore .
 
+- For Staged to unstages changes 
+    git reset
+
 - Delete local Branch :
     git branch --delete branch_name       OR  git branch -d branch_name  
 
