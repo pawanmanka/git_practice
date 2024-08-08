@@ -17,5 +17,6 @@ if use -D = force delete
 	1. git push origin -d development
 	2. rename local branch development => staging : git branch -m staging
 	3. After Rename push on Remote  : git push origin -u staging
-
+- For remove local changes 
+    git restore .
 
