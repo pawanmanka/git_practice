@@ -2,6 +2,9 @@ Git Practice
 
 The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. Its technical name in Git parlance is the “index”, but the phrase “staging area” works just as well.
 
+- After commit revert those changes 
+    git reset HEAD^
+
 - For remove local changes 
     git restore .
 
@@ -24,6 +27,16 @@ if use -D = force delete
 	1. git push origin -d development
 	2. rename local branch development => staging : git branch -m staging
 	3. After Rename push on Remote  : git push origin -u staging
+
+- for check head on which point and commit message
+    git reflog
+
+- This also discards all changes permanently.
+    git reset --hard
+
+- discards commit permanently.
+    git reset --hard <commit-id> 
+    Ex : git reset --hard 6dc63fb
 
 - For remove local changes 
     git restore .
